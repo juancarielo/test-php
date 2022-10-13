@@ -1,0 +1,20 @@
+{
+    "name": "www-data/app",
+    "autoload": {
+        "psr-4": {
+            "WwwData\\App\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Juan Carielo",
+            "email": "juancarielo@gmail.com"
+        }
+    ],
+    "require": {
+        "guzzlehttp/guzzle": "^7.0"
+    },
+    "require-dev": {
+        "symfony/var-dumper": "^6.0"
+    }
+}
